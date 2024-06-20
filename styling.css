@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(ll.webp);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 100px;
+    background-color: grey;
+    overflow: hidden; /* Clear floats */
+}
+
+nav .navbar p {
+    color: white;
+    float: left;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px; /* Remove default margin */
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px; /* Add some space between nav items */
+}
+
+nav li a {
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav li a:hover {
+    color: black;
+    transition: all 0.4s ease;
+}
